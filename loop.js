@@ -1,10 +1,14 @@
 
-var option = prompt ("what do you want to read?");
+var option = prompt ("what do you want to read? novel or history ?");
 
-while (option != "novel" && option != "history") 
-{
-   option = prompt ("what do you want to read?");
+if(option != "novel" && option != "history"){
+    option = prompt ("how many books do you want?");
 }
+
+// while (option != "novel" && option != "history") 
+// {
+//    option = prompt ("what do you want to read?");
+// }
 var theOption = " ";
 
 if (option=="novel")
